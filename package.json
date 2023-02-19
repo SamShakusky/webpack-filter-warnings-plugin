@@ -1,6 +1,6 @@
 {
   "name": "webpack-filter-warnings-plugin",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Allows you to hide certain warnings from webpack compilations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -46,7 +46,7 @@
     "node": ">= 8.0"
   },
   "peerDependencies": {
-    "webpack": ">= 4.0.0"
+    "webpack": ">= 4.0.0 || ^5.0.0"
   },
   "pre-commit": "lint-staged",
   "lint-staged": {
